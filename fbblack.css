@@ -1,0 +1,327 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #18191A;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; belkede buna gore dropdown saga qacirdi   */
+    background-color: #242526;
+    padding: 0%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.header-1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    
+}
+.header-1_1{
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+.header-1_1>a>i{
+    color:#0A83ED;
+    font-size: 40px;
+
+}
+.header-1_2{
+    padding: 10px;
+    border-radius: 20px ;
+    background-color: #3A3B3C;
+}
+.header-1_2>i{
+    color: grey;
+}
+.header-1_2>input{
+    background-color: transparent;
+    border: none;
+}
+/**********************/
+.header-2{
+    /* margin-top: 10px; */
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-2>div:nth-child(1){
+    padding:15px 30px 15px 30px;
+    color: #0A83ED;
+    font-size: 25px;
+    /* background-color: violet; */
+    border-bottom: 2px solid #0A83ED;
+   
+}
+
+.header-2>div:not(:nth-child(1)){
+    padding:10px 30px 10px 30px;
+    color: whitesmoke;
+    font-size: 25px;
+    /* background-color: violet;  */
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.header-2>div:not(:nth-child(1)):hover{
+    background-color: #3A3B3C;
+    cursor: pointer;
+}
+.header-3{
+    margin-left: 250px;
+    padding-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    
+}
+/* .header-3>div{
+    /* margin: 5px; */
+
+.header-3_1{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    /* background-color: lawngreen; */
+    padding: 5px;
+    
+}
+.same-div{
+    text-align: center;
+    padding-top: 5px;
+    width: 30px;
+    height: 25px;
+    border-radius:20px;
+    background-color: grey;
+    margin: 0px 2px;
+}
+.dropdown{
+    position: relative;
+    padding: 5px;
+    border-radius: 50%;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    right: 0px;
+    margin-top: 10px ;
+    border-radius: 10px;
+    background-color: #242526;
+    color: white;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.dropbtn{ 
+    width: 30px;
+    height: 25px;
+     text-align: center;
+     /* align-items: center; */
+     padding-top: 5px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.dropcontent>ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.dropcontent>ul>li:hover{
+    background-color: #3A3B3C;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.same-div2{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 5px;
+}
+.same-div2>div{
+    padding: 5px;
+}
+.header-3>div:hover{
+    background-color:#3A3B3C ;
+    cursor: pointer;
+}
+/******************orta hisse***********/
+.center{
+    display: flex;
+    
+    top: 0;
+  
+    color:white;
+    position: sticky;
+}
+.left-side{
+    position: sticky;
+    top: 0;
+}
+.left-side-list1>ul>li{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 10px;
+    
+}
+.left-side-list1>ul>li:hover{
+    border-radius: 5px;
+    background-color: #3A3B3C;
+}
+
+.left-side-list1>ul>li>i{
+    font-size: 25px;
+    color: #2A9DDA;
+    padding-right: 10px;
+}
+.left-side-list2>ul>li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+
+
+}
+.left-side-list2>ul>li:hover{
+    background-color:#3A3B3C  ;
+    border-radius: 10px;
+}
+.midle-block{
+  
+    margin-left: 50px;
+    padding: 50px;
+    /* text-align: center; */
+    
+   
+}
+.part1{
+    display: flex;
+}
+.part1>div{
+    width: 120px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 5px;
+}
+.part1>div:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.part2{
+    margin-top: 20px;
+    background-color: #242526;
+    border-radius: 10px;
+    padding: 10px;
+}
+.part2-child1{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.part2-child1>input{
+    width: 80%;
+   padding: 10px;
+   border: none;
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   background-color: #3A3B3C;
+   color: #B0B3B8;
+
+}
+.part2-child2{
+    display: flex;
+    justify-content: space-around;
+}
+.part2-child2>div{
+    /* background-color: hotpink; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.part2-child2>div:hover{
+    background-color: #3A3B3C;
+    cursor: pointer;
+}
+.part3{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:#242526 ;
+    padding: 10px;
+}
+.child1_1{
+    display: flex;
+    justify-content: space-between;
+}
+.child1_2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.child1_2>div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: darksalmon;
+}
+.part4{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #242526;
+    border-radius: 10px;
+}
+.part4-child1{
+    display: flex;
+    justify-content: space-between;
+}
+.part4-child1>div{
+    display: flex;
+    align-items: center;
+}
+.part4-child1>div:hover{
+    cursor: pointer;
+}
+.part4-child2{
+    margin-top: 5px;
+}
+.part4-child3{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 100px;
+}
+.right-side{
+    padding: 5px;
+    width: 30%;
+}
+.right-side>ul{
+    list-style-type: none;
+
+}
+.right-side>ul>li{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.right-side>ul>li>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: indigo;
+    margin-right: 10px;
+}
+.right-side>ul>li:hover{
+    background-color: #3A3B3C;
+}
